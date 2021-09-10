@@ -1,3 +1,4 @@
+//Sir I have included all the arry related problems that I have done in one single file called array.java
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 public class array {
