@@ -2,6 +2,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 public class array {
     public static void main(String[] args){
+        //1
         int[]arr = new int [10];
         for(int i = 0;i < args.length;i++){
             arr[i] = Integer.parseInt(args[i]);
@@ -31,7 +32,7 @@ public class array {
             }
         }
         System.out.println(max2);
-        System.out.println(min2);**/
+        System.out.println(min2);
 
         //2
         for(int k = 0;k < arr.length; k++){
@@ -42,7 +43,7 @@ public class array {
                 sum = sum + arr[k];
             }
         }
-        System.out.println(sum);**/
+        System.out.println(sum);
 
         //3
         int[]arr2 = {1,4,34,56,7};
@@ -97,9 +98,9 @@ public class array {
                 System.out.println(arr[j]);
             }
         }
-        System.out.println(sum);**/
+        System.out.println(sum);
 
-       // 3
+       // 6
         int arr[] = new int[]{1,2,3,4,5};
         int n = 5, ind = 2;
         for(int i = 0; i < arr.length; i++){
@@ -123,7 +124,7 @@ public class array {
             }
         }
         System.out.println(ignoredsum);**/
-        
+        //7
         int arr[] = {1, 2, 3, 4, 5, 6,7, 8, 9, 0};
         int ind = 3, val = 10;
         int exs = arr[ind];
@@ -135,9 +136,8 @@ public class array {
         arr[ind] = val;
         for(int j = 0; j < arr.length ; j++){
             System.out.println(arr[j]);
-        }**/
-
-
+        }
+        //8
         int arr[] = {12, 34, 12, 45, 67, 89};
         int pos = 0;
         for(int i =0; i< arr.length;i ++){
