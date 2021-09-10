@@ -114,7 +114,7 @@ public class problems {
         } else {
             System.out.println("not prime");
         }
-
+        // palindrome or not
         int b1;
         b1 = 4321;
         int rev = 0,res = b1;
