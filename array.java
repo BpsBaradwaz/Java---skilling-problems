@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 public class array {
     public static void main(String[] args){
-        /**int[]arr = new int [10];
+        int[]arr = new int [10];
         for(int i = 0;i < args.length;i++){
             arr[i] = Integer.parseInt(args[i]);
         }
@@ -16,8 +16,8 @@ public class array {
             if (arr[j] < min) {
                 min = arr[j];
             }
-        }**/
-        /**for(int k=0; k < arr.length; k ++){
+        }
+        for(int k=0; k < arr.length; k ++){
             if (arr[k] == arr[c1] || arr[k] == arr[c2]){
                 continue;
             }
@@ -34,7 +34,7 @@ public class array {
         System.out.println(min2);**/
 
         //2
-        /**for(int k = 0;k < arr.length; k++){
+        for(int k = 0;k < arr.length; k++){
             if(arr[k] == min){
                 continue;
             }
@@ -45,7 +45,7 @@ public class array {
         System.out.println(sum);**/
 
         //3
-        /**int[]arr2 = {1,4,34,56,7};
+        int[]arr2 = {1,4,34,56,7};
         int n = 56;
         int i = 0;
         boolean x = false;
@@ -63,7 +63,7 @@ public class array {
         }**/
 
         //4
-       /** int temp = 0;
+        int temp = 0;
         for(int j = 0;j < arr.length;j++){
             for(int k = j+1; k < arr.length;k++){
                 if(arr[j] > arr[k]){
@@ -75,10 +75,10 @@ public class array {
         }
         for(int l = 0;l < arr.length;l++){
             System.out.println(arr[l]);
-        }**/
+        }
 
        //5
-       /**int[]arr = {1,6,2,7,1,6,3,4,7,6,6,7,7};
+       int[]arr = {1,6,2,7,1,6,3,4,7,6,6,7,7};
         int indsix = 0,indsev = 0,sum = 0;
         for(int i = 0;i < arr.length;i++) {
             if(arr[i] == 6){
@@ -100,14 +100,14 @@ public class array {
         System.out.println(sum);**/
 
        // 3
-        /**int arr[] = new int[]{1,2,3,4,5};
+        int arr[] = new int[]{1,2,3,4,5};
         int n = 5, ind = 2;
         for(int i = 0; i < arr.length; i++){
             if(i == ind){
                 arr[i] = n;
             }
             System.out.println(arr[i]);**/
-        /**int[]arr = {1,6,2,7,1,6,3,4,7,6,6,7,7};
+        int[]arr = {1,6,2,7,1,6,3,4,7,6,6,7,7};
         boolean flag = false;
         int ignoredsum = 0;
         int totalsum = 0;
@@ -124,7 +124,7 @@ public class array {
         }
         System.out.println(ignoredsum);**/
         
-        /**int arr[] = {1, 2, 3, 4, 5, 6,7, 8, 9, 0};
+        int arr[] = {1, 2, 3, 4, 5, 6,7, 8, 9, 0};
         int ind = 3, val = 10;
         int exs = arr[ind];
         arr[ind] = val;
@@ -138,7 +138,7 @@ public class array {
         }**/
 
 
-        /**int arr[] = {12, 34, 12, 45, 67, 89};
+        int arr[] = {12, 34, 12, 45, 67, 89};
         int pos = 0;
         for(int i =0; i< arr.length;i ++){
             for(int j = 1; j < arr.length; j++){
@@ -154,12 +154,10 @@ public class array {
         }
         for(int l = 0; l < arr.length; l++){
             System.out.println(arr[l]);
-        }**/
+        }
 
-       /** double a = 12456;
-        System.out.println((char)a);**/
-
-
+       double a = 12456;
+        System.out.println((char)a);
     }
 }
 
