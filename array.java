@@ -107,7 +107,7 @@ public class array {
             if(i == ind){
                 arr[i] = n;
             }
-            System.out.println(arr[i]);**/
+            System.out.println(arr[i]);
         int[]arr = {1,6,2,7,1,6,3,4,7,6,6,7,7};
         boolean flag = false;
         int ignoredsum = 0;
@@ -123,9 +123,9 @@ public class array {
                 flag = false;
             }
         }
-        System.out.println(ignoredsum);**/
+        System.out.println(ignoredsum);
         //7
-        int arr[] = {1, 2, 3, 4, 5, 6,7, 8, 9, 0};
+        int[]arr = {1, 2, 3, 4, 5, 6,7, 8, 9, 0};
         int ind = 3, val = 10;
         int exs = arr[ind];
         arr[ind] = val;
