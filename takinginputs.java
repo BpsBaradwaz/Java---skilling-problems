@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.io.Console;
 public class takinginputs {
     public static void main(String[] args) throws IOException {
-        /**BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("write your name: ");
         String name = input.readLine();
         System.out.println("write a number: ");
@@ -16,10 +16,10 @@ public class takinginputs {
         //1
         System.out.println("Enter today's temperature: ");
         float temp = Float.parseFloat(input.readLine());
-        System.out.println(temp);**/
+        System.out.println(temp);
 
         // taking inputs using scanner
-        /**Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("enter student name: ");
         String name = input.nextLine();
         System.out.println("enter registration number: ");
@@ -39,7 +39,7 @@ public class takinginputs {
         System.out.println(name);
         System.out.println(ID);
         System.out.println(sum);
-        System.out.println(avg);**/
+        System.out.println(avg);
 
         int[] arr = new int[10];
         Scanner input = new Scanner(System.in);
